@@ -1,2 +1,25 @@
 /node_modules
 package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output (if you later use a bundler like Webpack/Vite)
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files (if any)
+.env
+.env.local
+.env.*.local
+
+# IDE/project files
+.vscode/
+.idea/
+*.swp
